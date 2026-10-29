@@ -11,12 +11,13 @@ body{
     align-items: center;
 }
 
+
 /*Header*/
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 100px;
+    padding: 20px 150px;
     background-color: #1F2937;
 }
 
@@ -43,10 +44,11 @@ header ul a {
 
 /* Hero Section*/
 .hero-section {
-    padding: 100px 300px;
+    padding: 100px 150px;
     display: flex;
+    justify-content: center;
     background-color: #1F2937;
-    gap: 300px;
+    gap: 200px;
 }
 
 .hero1 h1 {
@@ -71,12 +73,17 @@ header ul a {
 }
 
 .hero2 {
+    display: flex;
+    align-items: center;
     background-color: grey;
+    justify-content: center;
+    text-align: center;
     padding: 102px;
 }
 
 .hero2 img {
     color: #E5E7EB;
+    font-size: 11.5px;
 }
 
 /*Second section*/
@@ -96,7 +103,7 @@ header ul a {
 
 .box-holder {
     display: flex;
-    gap: 50px
+    gap: 50px;
 }
 
 .box {
@@ -112,21 +119,28 @@ header ul a {
 }
 
 /*Section 3*/
-.third-section{
+.third-section {
     display: flex;
     flex-direction: column;
-    background-color: #E5E7EB;
-    padding: 100px 500px;
+    justify-content: center;
+    align-items: center;
+    background: #E5E7EB;
+    padding: 100px;
 }
 
 .third-section i {
+    color: #1F2937;
     font-size: 36px;
-  
+    font-weight: 300;
 }
 
-.third-section p {
-    text-align: right;
-    margin-right: 70px;
+.signature{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signature p {
+    margin-left: 600px;
     font-weight: 600;
 }
 
@@ -137,7 +151,7 @@ header ul a {
 .bluebg {
     display: flex;
     background: #3882F6;
-    padding: 50px;
+    padding: 30px;
     border-radius: 6px;
     justify-content: space-between;
 }
@@ -147,8 +161,13 @@ header ul a {
     color: white;
 }
 
+.bluebg .callto p {
+    font-size: 12px;
+    color: white;
+}
+
 .bluebg button {
-    margin-right: 100px;
+    margin-right: 50px;
     background-color: #3882F6;
     padding: 7px 17px;
     border-radius: 6px;
